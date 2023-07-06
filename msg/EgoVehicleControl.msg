@@ -1,10 +1,9 @@
 # This represents a vehicle control message sent to ROAR Arduino
+std_msgs/Header header
 
-# 0. <= throttle <= 1.
-float32 throttle
+float32 target_speed
 
-# -1. <= steer <= 1.
-float32 steer
+float32 steering_angle
 
 # 0. <= brake <= 1.
 float32 brake

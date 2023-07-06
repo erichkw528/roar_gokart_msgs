@@ -1,8 +1,6 @@
 std_msgs/Header header
-roar_msgs/EgoVehicleControl actuation
-float32 angle
+float32 angle 
+bool is_left_limiter_on
+bool is_right_limiter_on
+float32 speed
 bool is_auto
-
-# 0 = abnormal state
-# 1 = normal state
-uint32 status
