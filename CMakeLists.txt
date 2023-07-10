@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.5)
-project(roar_msgs)
+project(roar_gokart_msgs)
 
 # find dependencies
 find_package(ament_cmake REQUIRED)
